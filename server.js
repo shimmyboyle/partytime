@@ -10,7 +10,7 @@ app.use("/", express.static("public"));
 //Initialize HTTP server
 let http = require("http");
 let server = http.createServer(app);
-let port = process.env.PORT || 3000;
+let port = process.env.PORT || 8080;
 
 //Initialize socket.io
 let io = require("socket.io");
